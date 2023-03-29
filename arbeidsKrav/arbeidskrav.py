@@ -70,10 +70,10 @@ def Quiz():
         user_answers.append(user_answer)
 
         if quiz_answers[question_number][user_answer - 1] == correct_answers[question_number]:
-            print("Correct!")
+            print("Correct!\n")
             num_correct_answers += 1
         else:
-            print("Wrong!")
+            print("Wrong!\n")
             num_wrong_answers += 1
 
     print(
